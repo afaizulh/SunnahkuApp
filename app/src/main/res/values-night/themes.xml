@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Sunnahku" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/cream_yellow</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/red</item>
+        <item name="colorOnSecondary">@color/cream_yellow</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Theme.Sunnahku" parent="Base.Theme.Sunnahku" />
+    <style name="Theme.Sunnahku.actionbar" parent="Theme.Material3.DayNight" />
+</resources>

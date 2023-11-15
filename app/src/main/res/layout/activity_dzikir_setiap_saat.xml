@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.SunnahQauliyahActivity">
+
+    <TextView
+        android:id="@+id/tv_txt_qauliyah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/bg_features_app"
+        android:gravity="bottom"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="16dp"
+        android:text="@string/txt_dzikir_setiap_saat"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_dzikir_setiap_saat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/item_view1"
+        android:layout_below="@+id/tv_txt_qauliyah" />
+
+</RelativeLayout>
